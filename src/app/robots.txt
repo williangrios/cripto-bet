@@ -1,4 +1,3 @@
 User-Agent: *
 Allow: /
-
-Sitemap:
+Sitemap: https://criptobet.com.br/sitemap.xml
