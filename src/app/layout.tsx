@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     ],
     locale: 'pt-BR',
     type: 'website'
+  },
+  verification: {
+    google: 'MxMj1CaliRbJ6G7cp0eIYXug0QF6hyugQ1P74T6sCzc'
   }
 }
 
@@ -40,7 +43,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-
       <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-N14QDF50E0"></Script>
       <Script id='google-analytics'>
         {`window.dataLayer = window.dataLayer || [];
@@ -50,7 +52,6 @@ export default function RootLayout({
       </Script>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google-site-verification" content="MxMj1CaliRbJ6G7cp0eIYXug0QF6hyugQ1P74T6sCzc" />
       </Head>
 
       <body className={inter.className}>
